@@ -1,11 +1,7 @@
-import './App.css';
+import "./App.css";
 
 function App() {
-  return (
-    <div className="App">
-      <h1>Learn react now</h1>
-    </div>
-  );
+  return <div  data-test="component-app" className="App"></div>;
 }
 
 export default App;
